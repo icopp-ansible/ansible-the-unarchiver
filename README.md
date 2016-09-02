@@ -1,6 +1,6 @@
 # ansible-the-unarchiver
 
-Install The Unarchiver via the Mac App Store or Homebrew. Does nothing on non-macOS platforms.
+Install The Unarchiver via the Mac App Store or Homebrew Cask. Does nothing on non-macOS platforms.
 
 ## Role Variables
 
