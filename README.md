@@ -9,7 +9,7 @@ Install The Unarchiver via the Mac App Store or Homebrew. Does nothing on non-ma
 ## Dependencies
 
 * [icopp.mas-cli](https://github.com/icopp/ansible-mas-cli) (included as repository dependency), but only if `prefer_mas_over_homebrew` is `true`.
-* [icopp.homebrew](https://github.com/icopp/ansible-homebrew) (included as repository dependency), but only if `prefer_mas_over_homebrew` is `false`.
+* [icopp.homebrew-cask](https://github.com/icopp/ansible-homebrew-cask) (included as repository dependency), but only if `prefer_mas_over_homebrew` is `false`.
 
 ## Example Playbook
 

@@ -15,5 +15,5 @@ dependencies:
   - role: icopp.mas-cli
     when: ansible_os_family == "Darwin" and prefer_mas_over_homebrew == true
 
-  - role: icopp.homebrew
+  - role: icopp.homebrew-cask
     when: ansible_os_family == "Darwin" and prefer_mas_over_homebrew == false
