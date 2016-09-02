@@ -1,0 +1,19 @@
+---
+galaxy_info:
+  author: Ian Copp
+  description: Install The Unarchiver via the Mac App Store or Homebrew. Does nothing on non-macOS platforms.
+  license: MIT
+  min_ansible_version: 1.2
+  platforms:
+    - name: MacOSX
+      versions:
+        - all
+  galaxy_tags:
+    - application
+
+dependencies:
+  - role: icopp.mas-cli
+    when: ansible_os_family == "Darwin" and prefer_mas_over_homebrew == true
+
+  - role: icopp.homebrew
+    when: ansible_os_family == "Darwin" and prefer_mas_over_homebrew == false
