@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Ian Copp
-  description: Install The Unarchiver via the Mac App Store or Homebrew. Does nothing on non-macOS platforms.
+  description: Install The Unarchiver via the Mac App Store or Homebrew.
   license: MIT
   min_ansible_version: 1.2
   platforms:

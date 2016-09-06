@@ -7,7 +7,7 @@
     - { id: 425424353, name: "The Unarchiver" }
   when: ansible_os_family == "Darwin" and prefer_mas_over_homebrew == true
 
-- name: Install The Unarchiver via Homebrew
+- name: Install The Unarchiver via Homebrew Cask
   homebrew_cask:
     name: the-unarchiver
   when: ansible_os_family == "Darwin" and prefer_mas_over_homebrew == false
